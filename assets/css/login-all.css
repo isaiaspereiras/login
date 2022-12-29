@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(-45deg, #84B8D9, #D5E5F2, #BDD9F2);
+    position: relative;
+}
+
+main {
+    width: 80vw;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.548);
+    transform: translate(-50%, -50%);
+}
+main section.login .image {
+    background: url('../image/pexels-tobias-bjørkli-1819657.jpg') no-repeat right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20vh;
+}
+section.login .formulary {
+    background-color: transparent;
+    height: 30vh;
+}
+section.login .formulary form  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.login .formulary form .description {
+    margin: 5px 0px;
+    color: #333;
+}
+section.login .formulary form .campos {
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    background-color: transparent;
+    padding:5px 10px;
+    width: 90%;
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+section.login .formulary form input {
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    margin-left: 5px;
+    outline: none;
+    padding: 5px ;
+}
+section.login .formulary form .entrar {
+    margin-top: 10px;
+    width: 40%;
+}
+section.login .formulary form .entrar input {
+    border: 1px solid #333;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section.login .formulary form .entrar input:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.589);
+    background-color: rgb(228, 228, 228);
+}
+section.login .formulary form .forget {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+section.login .formulary form .forget a {
+    text-decoration: none;
+    margin-right: 5px;
+    color: #333;
+}
+section.login .formulary form .forget a:hover {
+    text-decoration: underline;
+    color: #00f;
+}
