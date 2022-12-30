@@ -13,7 +13,6 @@ body {
 
 main {
     width: 80vw;
-    height: 50vh;
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
@@ -26,7 +25,7 @@ main section.login .image {
     background: url('../image/pexels-tobias-bjørkli-1819657.jpg') no-repeat right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 20vh;
+    height: 25vh;
 }
 section.login .formulary {
     background-color: transparent;
@@ -78,6 +77,7 @@ section.login .formulary form .forget {
     display: flex;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 section.login .formulary form .forget a {
     text-decoration: none;
