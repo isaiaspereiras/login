@@ -1,0 +1,11 @@
+/* Para desktop */
+@media (min-width: 993px) {
+    main {    
+        max-width: 992px;
+        width: 95%;
+    }
+    main section.login {
+        flex-direction: row-reverse;
+        transition: ease;
+    }
+}
