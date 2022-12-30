@@ -29,7 +29,7 @@ main section.login .image {
 }
 section.login .formulary {
     background-color: transparent;
-    height: 30vh;
+    height: 33vh;
 }
 section.login .formulary form  {
     display: flex;
